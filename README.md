@@ -96,7 +96,7 @@ You can now download and install node v12 using this command:
 `nvm install 12.0.0`
 If you want to switch back to your newer version you can use the command `nvm use <version>`
 
-7. Export your resume as pdf by running the command `npm run export`. In order to avoid errors due to the concurrency of two  `npm run` commands, stop the execution of the previus `npm run dev` and then type the export command.
+7. Export your resume as pdf by running the command `npm run export`. In order to avoid errors due to the concurrency of two  `npm run` commands, stop the execution of the previus `npm run dev` by pressing `Ctrl + c` and then type the export command.
 
 All resumes will be exported to the `pdf/` folder.
 
